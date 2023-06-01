@@ -6,7 +6,7 @@
 /*   By: migmoren <migmoren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/31 13:41:34 by migmoren          #+#    #+#             */
-/*   Updated: 2023/06/01 12:33:11 by migmoren         ###   ########.fr       */
+/*   Updated: 2023/06/01 12:44:01 by migmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ void	ft_handler(int sig)
 		c = c << 1;
 }
 
-int	main()
+int	main(void)
 {
 	pid_t	pid;
 

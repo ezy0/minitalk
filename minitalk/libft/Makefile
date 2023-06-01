@@ -6,14 +6,14 @@
 #    By: migmoren <migmoren@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/09/18 21:53:23 by migmoren          #+#    #+#              #
-#    Updated: 2023/05/31 12:30:09 by migmoren         ###   ########.fr        #
+#    Updated: 2023/06/01 13:33:35 by migmoren         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libft.a
 
 CC = gcc
-CFLAGS = -Wall -Wextra -Werror -g -fsanitize=address
+CFLAGS = -Wall -Wextra -Werror
 
 SRC = ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c \
 	ft_isprint.c ft_memcpy.c ft_memmove.c ft_memset.c ft_strchr.c \
