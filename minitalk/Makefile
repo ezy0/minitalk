@@ -6,7 +6,7 @@
 #    By: migmoren <migmoren@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/05/31 13:07:16 by migmoren          #+#    #+#              #
-#    Updated: 2023/05/31 13:41:50 by migmoren         ###   ########.fr        #
+#    Updated: 2023/06/01 12:31:41 by migmoren         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ NAME_C = client
 NAME_S = server
 
 CC = gcc
-CFLAGS = -Wall -Wextra -Werror 
+CFLAGS = -Wall -Wextra  -Werror
 
 SRC_C = client.c
 OBJS_C = ${SRC_C:.c=.o}

@@ -6,7 +6,7 @@
 /*   By: migmoren <migmoren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/17 17:00:26 by migmoren          #+#    #+#             */
-/*   Updated: 2023/05/31 13:44:00 by migmoren         ###   ########.fr       */
+/*   Updated: 2023/06/01 09:43:22 by migmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -88,7 +88,5 @@ void	ft_bzero(void *str, size_t n);
 char	*ft_strjoin(char const *s1, char const *s2);
 void	*ft_calloc(size_t count, size_t size);
 char	*ft_strchr(const char *str, int c);
-
-
 
 #endif
