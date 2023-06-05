@@ -6,7 +6,7 @@
 /*   By: migmoren <migmoren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/31 13:41:34 by migmoren          #+#    #+#             */
-/*   Updated: 2023/06/01 12:44:01 by migmoren         ###   ########.fr       */
+/*   Updated: 2023/06/05 10:09:36 by migmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,10 +28,16 @@ void	ft_handler(int sig)
 		c = c << 1;
 }
 
-int	main(void)
+int	main(int argc, char *argv[])
 {
 	pid_t	pid;
 
+	(void)argv;
+	if (argc != 1)
+	{
+		ft_printf("Error. No se necesitan argumentos\n");
+		return (1);
+	}
 	pid = getpid();
 	ft_printf("PID: %d\n", pid);
 	signal(SIGUSR1, ft_handler);
