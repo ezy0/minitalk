@@ -6,15 +6,14 @@
 #    By: migmoren <migmoren@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/05/31 13:07:16 by migmoren          #+#    #+#              #
-#    Updated: 2023/06/05 09:18:59 by migmoren         ###   ########.fr        #
+#    Updated: 2023/06/07 08:34:51 by migmoren         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME_C = client
 NAME_S = server
-#HEADERS	= minitalk.h
 
-CC	= gcc -Wall -Werror -Wextra -g -fsanitize=address
+CC	= gcc -Wall -Werror -Wextra
 
 INCLUDE	= -Llibft -lft -I ./
 
@@ -26,7 +25,6 @@ OBJS_S = ${SRC_S:.c=.o}
 
 NAME_CB = client_bonus
 NAME_SB = server_bonus
-#HEADERS_B =  minitalk_bonus.h
 
 SRC_CB = client_bonus.c
 OBJS_CB = ${SRC_CB:.c=.o}
